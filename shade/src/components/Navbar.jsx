@@ -1,10 +1,22 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { assets } from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
+import Payment from './Payment'
 
 const Navbar = () => {
 
   const navigate = useNavigate()
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // Function to toggle modal visibility
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
   return (
     <>
@@ -14,16 +26,45 @@ const Navbar = () => {
         <img onClick={()=> navigate(1)} src={assets.arrow_right} alt="" className='w-8 bg-black p-2 rounded-2xl cursor-pointer'/>
       </div>
       <div className='flex items-center gap-4'>
-        <p className='bg-white text-black cursor-pointer text-[15px] px-4 py-1 rounded-2xl hidden md:block'>Explore Premium</p>
-        <p className='bg-black py-1 px-3 rounded-2xl text-[15px]'>Install App</p>
+      <p
+          onClick={openModal}
+          className='bg-white text-black cursor-pointer text-[15px] px-4 py-1 rounded-2xl hidden md:block'
+        >
+          Get me a coffee ☕
+        </p>        {/* <p className='bg-black py-1 px-3 rounded-2xl text-[15px]'>Install App</p> */}
         <p className='bg-purple-500 text-black w-7 h-7 flex justify-center items-center py-1 px-3 rounded-2xl text-[15px]'>S</p>
       </div>
     </div>
     <div className='flex items-center gap-2 mt-4'>
       <p className='bg-white text-black px-4 py-1 rounded-2xl cursor-pointer' >All</p>
-      <p className='bg-black text-white px-4 py-1 rounded-2xl cursor-pointer' >Music</p>
-      <p className='bg-black text-white px-4 py-1 rounded-2xl cursor-pointer' >Podcasts</p>
+      {/* <p className='bg-black text-white px-4 py-1 rounded-2xl cursor-pointer' >Music</p>
+      <p className='bg-black text-white px-4 py-1 rounded-2xl cursor-pointer' >Podcasts</p> */}
+
     </div>
+    {isModalOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-opacity-50 h-full w-full bg-brown-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100"
+          onClick={closeModal}
+        >
+          <div
+            className="relative w-full max-w-md bg-white p-6 rounded-2xl shadow-lg"
+            onClick={e => e.stopPropagation()}
+          >
+            {/* Close button */}
+            <button
+              onClick={closeModal}
+              className="absolute top-3 right-3 text-gray-500 hover:text-gray-700 text-xl"
+            >
+              &times;
+            </button>
+
+            {/* Modal content */}
+            {/* <h2 className="text-lg font-semibold mb-2 text-black"></h2> */}
+            <p className="text-sm">Enjoy your break!</p>
+            <Payment/>
+          </div>
+        </div>
+      )}
     </>
   )
 }

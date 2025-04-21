@@ -12,9 +12,9 @@ const TimeFetcher = () => {
     <div className="p-4 max-w-md mx-auto  rounded-xl shadow-md text-center">
       <h2 className="text-xl font-bold mb-4"></h2>
       <p className="text-5xl font-mono text-green-600 font-bold ">
-        {time.toLocaleTimeString()}
+        {time.toLocaleTimeString().split(":")[0]+":"+time.toLocaleTimeString().split(":")[1]}
       </p>
-      <p className="mt-2 text-gray-500">
+      <p className="mt-2 text-2xl text-gray-500">
         {time.toLocaleDateString(undefined, {
           weekday: "long",
           year: "numeric",

@@ -3,6 +3,8 @@ import Navbar from './Navbar'
 import { useParams } from 'react-router-dom'
 import { albumsData, songsData } from '../assets/assets';
 import { assets } from '../assets/assets';
+import { PlayerContext } from '../context/PlayerContext';
+import { useContext } from 'react'
 
 const DisplayAlbum = () => {
 
@@ -10,11 +12,12 @@ const DisplayAlbum = () => {
   console.log(id);
   const albumData = albumsData[id];
   console.log(albumData)
+  const {playWithId} = useContext(PlayerContext)
 
   return (
     <>
       <Navbar/>
-      <div className='mt-10 flex gap-8 flex-col md:flex-row md:items-end'>
+      <div  className='mt-10 flex gap-8 flex-col md:flex-row md:items-end'>
         <img className='w-48 rounded' src={albumData.image}/>
         <div className='flex flex-col'>
           <p>Playlist</p>
@@ -27,7 +30,6 @@ const DisplayAlbum = () => {
             <b>50 likes</b>
             about 4hr 90min
           </p>
-
         </div>
       </div>
       <div className='grid gird-cols-3 sm:grid-cols-4 mt-10 mb-4 pl-2 text-[#a7a7a7]'>
@@ -39,7 +41,7 @@ const DisplayAlbum = () => {
       <hr/>
       {
         songsData.map((item, index)=>(
-          <div className='grid grid-cols-3 sm:grid-cols-4 gap-2 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer'>
+          <div onClick={()=>playWithId(item.id)} className='grid grid-cols-3 sm:grid-cols-4 gap-2 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer'>
               <p className='text-white'>
                 <b className='mr-4 text-[#a7a7a7]'>{index+1}</b>
                 <img className='inline w-10 mr-5' src={item.image}/>

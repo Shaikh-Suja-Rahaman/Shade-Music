@@ -99,7 +99,7 @@ export const albumsData = [
         desc: "Your weekly update of the most played tracks",
         bgColor: "#2a4365",
         songs: [
-    
+
             {
                 id: Math.random(),
                 name: "Alex Warren - Ordinary",
@@ -186,23 +186,63 @@ export const albumsData = [
 ]
 
 export const topHitsData = [
+
     {
-        id: Math.random().toString(),
-        name: "Top Hit 1",
-        image: img1,
-        file: song1,
-        desc: "Popular hit track",
-        duration: "3:00"
+        id: Math.random(),
+        name: "Alex Warren - Ordinary",
+        image: imgg1,
+        file: song4,
+        desc: "Another global hit",
+        duration: "3:07"
     },
     {
-        id: Math.random().toString(),
-        name: "Top Hit 2",
-        image: img2,
-        file: song2,
-        desc: "Chart topper",
-        duration: "2:20"
+        id: Math.random(),
+        name: "Anxiety",
+        image: gi1,
+        file: gs1,
+        desc: "Another global hit",
+        duration: "4:09"
+    },
+    {
+        id: Math.random(),
+        name: "Die With a smile",
+        image: gi2,
+        file: gs2,
+        desc: "Another global hit",
+        duration: "4:12"
+    },
+    {
+        id: Math.random(),
+        name: "Birds of a feather",
+        image: gi3,
+        file: gs3,
+        desc: "Another global hit",
+        duration: "3:50"
+    },
+    {
+        id: Math.random(),
+        name: "Espresso",
+        image: gi4,
+        file: gs4,
+        desc: "Another global hit",
+        duration: "2:55"
+    },
+    {
+        id: Math.random(),
+        name: "Benson Boone - Beautiful Things",
+        image: gi5,
+        file: gs5,
+        desc: "Another global hit",
+        duration: "3:12"
+    },
+    {
+        id: Math.random(),
+        name: "Not Like Us",
+        image: gi6,
+        file: gs6,
+        desc: "Another global hit",
+        duration: "4:33"
     }
-    // ... more songs
 ]
 
 export const songsData = [

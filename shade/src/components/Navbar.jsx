@@ -43,7 +43,7 @@ const Navbar = () => {
     </div>
     {isModalOpen && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-opacity-50 h-full w-full bg-brown-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-opacity-50 h-full w-full bg-brown-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 "
           onClick={closeModal}
         >
           <div

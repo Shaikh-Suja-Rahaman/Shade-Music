@@ -1,21 +1,5 @@
 # Shade Music Player - React Web Application
 
-## Table of Contents
-1. Introduction
-2. Features
-3. Technical Architecture
-4. Component Structure
-5. Context Management
-6. Audio Implementation
-7. User Interface
-8. Data Management
-9. Routing
-10. Installation
-11. Development
-12. Best Practices
-13. Known Issues
-14. Future Enhancements
-
 ## Introduction
 
 Shade Music Player is a modern web-based music streaming application built using React and Vite. It provides a Spotify-like experience with features such as album browsing, playlist management, and real-time audio playback control.

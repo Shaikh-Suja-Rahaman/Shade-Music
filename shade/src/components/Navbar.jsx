@@ -32,7 +32,7 @@ const Navbar = () => {
         >
           Get me a coffee ☕
         </p>        {/* <p className='bg-black py-1 px-3 rounded-2xl text-[15px]'>Install App</p> */}
-        <p className='bg-purple-500 text-black w-7 h-7 flex justify-center items-center py-1 px-3 rounded-2xl text-[15px]'>S</p>
+        <a href='https://github.com/Shaikh-Suja-Rahaman' target="_blank"  ><p className='bg-purple-500 text-black w-7 h-7 flex justify-center items-center py-1 px-3 rounded-2xl text-[15px]'>S</p></a>
       </div>
     </div>
     <div className='flex items-center gap-2 mt-4'>
@@ -43,19 +43,14 @@ const Navbar = () => {
     </div>
     {isModalOpen && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-opacity-50 h-full w-full bg-brown-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 "
+          className=" fixed inset-0 z-50 flex items-center justify-center bg-opacity-50 h-full w-full bg-brown-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 "
           onClick={closeModal}
+
         >
           <div
             className="relative w-full max-w-md bg-white p-6 rounded-2xl shadow-lg"
             onClick={e => e.stopPropagation()}
           >
-            {/* Close button */}
-            
-
-            {/* Modal content */}
-            {/* <h2 className="text-lg font-semibold mb-2 text-black"></h2> */}
-
             <Payment/>
           </div>
         </div>

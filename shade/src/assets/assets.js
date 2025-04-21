@@ -43,9 +43,26 @@ import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
 
 import song4 from './Alex Warren - Ordinary (Official Music Video).mp3'
-
-
 import imgg1 from './u2ah9tWTkmk-HD.jpg'
+
+import gs1 from "./Doechii - Anxiety (Visualizer).mp3"
+import gi1 from "./egemoVK0IKY-HD.jpg"
+
+import gs2 from "./Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video).mp3"
+import gi2 from "./kPa7bsKwL-c-HD.jpg"
+
+import gs3 from "./Billie Eilish - BIRDS OF A FEATHER (Official Music Video).mp3"
+import gi3 from "./V9PVRfjEBTI-HD.jpg"
+
+import gs4 from "./Espresso.mp3"
+import gi4 from "./eleP7yc9dSY-HD.jpg"
+
+import gs5 from "./Benson Boone - Beautiful Things (Official Music Video).mp3"
+import gi5 from "./Oa_RSwwpPaA-HD.jpg"
+
+import gs6 from "./Not Like Us.mp3"
+import gi6 from "./T6eK-2OQtew-HD.jpg"
+
 
 export const assets = {
     bell_icon,
@@ -82,22 +99,7 @@ export const albumsData = [
         desc: "Your weekly update of the most played tracks",
         bgColor: "#2a4365",
         songs: [
-            {
-                id: Math.random(),
-                name: "Global Hit 1",
-                image: img1,
-                file: song1,
-                desc: "Top global track",
-                duration: "3:00"
-            },
-            {
-                id: Math.random(),
-                name: "Global Hit 2",
-                image: img2,
-                file: song2,
-                desc: "Another global hit",
-                duration: "2:20"
-            },
+    
             {
                 id: Math.random(),
                 name: "Alex Warren - Ordinary",
@@ -105,6 +107,54 @@ export const albumsData = [
                 file: song4,
                 desc: "Another global hit",
                 duration: "3:07"
+            },
+            {
+                id: Math.random(),
+                name: "Anxiety",
+                image: gi1,
+                file: gs1,
+                desc: "Another global hit",
+                duration: "4:09"
+            },
+            {
+                id: Math.random(),
+                name: "Die With a smile",
+                image: gi2,
+                file: gs2,
+                desc: "Another global hit",
+                duration: "4:12"
+            },
+            {
+                id: Math.random(),
+                name: "Birds of a feather",
+                image: gi3,
+                file: gs3,
+                desc: "Another global hit",
+                duration: "3:50"
+            },
+            {
+                id: Math.random(),
+                name: "Espresso",
+                image: gi4,
+                file: gs4,
+                desc: "Another global hit",
+                duration: "2:55"
+            },
+            {
+                id: Math.random(),
+                name: "Benson Boone - Beautiful Things",
+                image: gi5,
+                file: gs5,
+                desc: "Another global hit",
+                duration: "3:12"
+            },
+            {
+                id: Math.random(),
+                name: "Not Like Us",
+                image: gi6,
+                file: gs6,
+                desc: "Another global hit",
+                duration: "4:33"
             }
         ]
     },

@@ -1,7 +1,7 @@
 import React from 'react'
 import {assets} from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
-
+import TimeFetcher from './TimeFetcher'
 function Sidebar() {
 
   const navigate = useNavigate()
@@ -18,7 +18,8 @@ function Sidebar() {
         </div>
       </div>
       <div className='bg-[#121212] h-[85%] rounded  '>
-        <div className='p-4 flex items-center justify-between'>
+        <TimeFetcher/>
+        {/* <div className='p-4 flex items-center justify-between'>
           <div className='flex items-center gap-3'>
             <img className='w-8' src={assets.stack_icon}/>
             <p className='font-semibold'>Your Library</p>
@@ -52,7 +53,7 @@ function Sidebar() {
             Browse Podcast
           </button>
 
-        </div>
+        </div> */}
       </div>
     </div>
   )

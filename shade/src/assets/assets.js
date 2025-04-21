@@ -42,6 +42,11 @@ import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
 
+import song4 from './Alex Warren - Ordinary (Official Music Video).mp3'
+
+
+import imgg1 from './u2ah9tWTkmk-HD.jpg'
+
 export const assets = {
     bell_icon,
     home_icon,
@@ -78,7 +83,7 @@ export const albumsData = [
         bgColor: "#2a4365",
         songs: [
             {
-                id: 0,
+                id: Math.random(),
                 name: "Global Hit 1",
                 image: img1,
                 file: song1,
@@ -86,12 +91,20 @@ export const albumsData = [
                 duration: "3:00"
             },
             {
-                id: 1,
+                id: Math.random(),
                 name: "Global Hit 2",
                 image: img2,
                 file: song2,
                 desc: "Another global hit",
                 duration: "2:20"
+            },
+            {
+                id: Math.random(),
+                name: "Alex Warren - Ordinary",
+                image: imgg1,
+                file: song4,
+                desc: "Another global hit",
+                duration: "3:07"
             }
         ]
     },
@@ -103,7 +116,7 @@ export const albumsData = [
         bgColor: "#22543d",
         songs: [
             {
-                id: 2,
+                id: Math.random(),
                 name: "Bollywood Hit 1",
                 image: img3,
                 file: song3,
@@ -111,7 +124,7 @@ export const albumsData = [
                 duration: "2:32"
             },
             {
-                id: 3,
+                id: Math.random(),
                 name: "Bollywood Hit 2",
                 image: img4,
                 file: song1,
@@ -124,7 +137,7 @@ export const albumsData = [
 
 export const topHitsData = [
     {
-        id: 'top1',
+        id: Math.random().toString(),
         name: "Top Hit 1",
         image: img1,
         file: song1,
@@ -132,7 +145,7 @@ export const topHitsData = [
         duration: "3:00"
     },
     {
-        id: 'top2',
+        id: Math.random().toString(),
         name: "Top Hit 2",
         image: img2,
         file: song2,

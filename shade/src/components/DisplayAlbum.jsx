@@ -32,10 +32,10 @@ const DisplayAlbum = () => {
           </p>
         </div>
       </div>
-      <div className='grid gird-cols-3 sm:grid-cols-4 mt-10 mb-4 pl-2 text-[#a7a7a7]'>
+      <div className='grid gird-cols-2 sm:grid-cols-2 mt-10 mb-4 pl-2 text-[#a7a7a7]'>
         <p><b className='mr-4'>#</b>Ttile</p>
-        <p>Album</p>
-        <p className='hidden sm:block'>Date Added</p>
+        {/* <p>Album</p> */}
+        {/* <p className='hidden sm:block'>Date Added</p> */}
         <img src={assets.clock_icon} className='m-auto w-4'/>
       </div>
       <hr/>
@@ -44,15 +44,15 @@ const DisplayAlbum = () => {
           <div
             key={song.id}
             onClick={() => playWithId(song.id, albumData.id)}
-            className='grid grid-cols-3 sm:grid-cols-4 gap-2 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer'
+            className='grid grid-cols-2 sm:grid-cols-2 gap-2 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer'
           >
             <p className='text-white'>
               <b className='mr-4 text-[#a7a7a7]'>{index+1}</b>
-              <img className='inline w-10 mr-5' src={song.image}/>
+              <img className='inline w-10 h-10 mr-5 object-cover rounded' src={song.image}/>
               {song.name}
             </p>
-            <p className='text-[15px]'>{albumData.name}</p>
-            <p className='text-[15px] hidden sm:block'>5 Days Ago</p>
+
+
             <p className='text-[15px] text-center'>{song.duration}</p>
           </div>
         ))

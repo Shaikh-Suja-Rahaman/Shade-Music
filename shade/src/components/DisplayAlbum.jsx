@@ -23,7 +23,7 @@ const DisplayAlbum = () => {
           <p>Playlist</p>
           <h2 className='text-5xl font-bold mb-4 md:text-7xl'>{albumData.name}</h2>
           <h4>{albumData.desc}</h4>
-          
+
         </div>
       </div>
       <div className='grid gird-cols-2 sm:grid-cols-2 mt-10 mb-4 pl-2 text-[#a7a7a7]'>

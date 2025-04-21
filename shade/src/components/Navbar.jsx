@@ -22,8 +22,8 @@ const Navbar = () => {
     <>
     <div className='w-full flex justify-between items-center font-semibold'>
       <div className='flex items-center gap-2'>
-        <img onClick={()=> navigate(-1)} src={assets.arrow_left} alt="" className='w-8 bg-black p-2 rounded-2xl cursor-pointer'/>
-        <img onClick={()=> navigate(1)} src={assets.arrow_right} alt="" className='w-8 bg-black p-2 rounded-2xl cursor-pointer'/>
+        <img onClick={()=> navigate(-1)} src={assets.arrow_left} alt="" className='w-8 bg-black opacity-50 hover:opacity-100 transition-all ease-in-out  p-2 rounded-2xl cursor-pointer'/>
+        <img onClick={()=> navigate(1)} src={assets.arrow_right} alt="" className='w-8 bg-black opacity-50 hover:opacity-100 transition-all ease-in-out p-2 rounded-2xl cursor-pointer'/>
       </div>
       <div className='flex items-center gap-4'>
       <p
@@ -51,16 +51,11 @@ const Navbar = () => {
             onClick={e => e.stopPropagation()}
           >
             {/* Close button */}
-            <button
-              onClick={closeModal}
-              className="absolute top-3 right-3 text-gray-500 hover:text-gray-700 text-xl"
-            >
-              &times;
-            </button>
+            
 
             {/* Modal content */}
             {/* <h2 className="text-lg font-semibold mb-2 text-black"></h2> */}
-            <p className="text-sm">Enjoy your break!</p>
+
             <Payment/>
           </div>
         </div>

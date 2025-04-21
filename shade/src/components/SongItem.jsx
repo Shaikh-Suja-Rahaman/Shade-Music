@@ -14,7 +14,7 @@ const SongItem = ({image, name, desc, id}) => {
       onClick={handleClick}
       className='min-w-[180px] p-2 px-3 rounded cursor-pointer hover:bg-[#ffffff26] transition-all ease-in-out duration-200'
     >
-      <img src={image} className='rounded' alt=""/>
+      <img src={image} className='rounded h-13% w-13%' alt=""/>
       <p className='font-bold mt-2 mb-1'>{name}</p>
       <p className='text-slate-200 text-sm'>{desc}</p>
     </div>

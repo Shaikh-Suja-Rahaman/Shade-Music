@@ -9,7 +9,7 @@ const PlayerContextProvider = (props) =>{
   const seekBg = useRef();
   const seekBar = useRef();
 
-  const [track, setTrack] = useState(songsData[0]) //first song
+  const [track, setTrack] = useState(topHitsData[0]) //first song
   const [playStatus, setPlayStatus] = useState(false) //to know if its paused or not
   const [time, setTime] = useState({
 

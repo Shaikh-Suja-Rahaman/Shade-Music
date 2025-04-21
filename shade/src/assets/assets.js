@@ -63,6 +63,27 @@ import gi5 from "./Oa_RSwwpPaA-HD.jpg"
 import gs6 from "./Not Like Us.mp3"
 import gi6 from "./T6eK-2OQtew-HD.jpg"
 
+import is1 from "./Ritviz - Jeet [Official Music Video].mp3"
+import ii1 from "./97NWNz9kgxU-HD.jpg"
+
+import is2 from "./GOAT SHIT  King & Karma  MM  Official Music Video.mp3"
+import ii2 from "./gcOyAwm2zp8-HD.jpg"
+
+import is3 from "./MILLIONAIRE SONG (Full Video)_ @YoYoHoneySingh   GLORY  BHUSHAN KUMAR.mp3"
+import ii3 from "./XO8wew38VM8-HD.jpg"
+
+import is4 from "./PYAAR_ l Naam Sujal  MTV Hustle 4.mp3"
+import ii4 from "./KigR4MQUxE8-HD.jpg"
+
+import is6 from "./KR$NA ft. Seedhe Maut - Hola Amigo  Official Music Video.mp3"
+import ii6 from "./De9VIp37CjY-HD.jpg"
+
+import is7 from "./RAFTAAR X BADSHAH - BAAWE  HARD DRIVE Vol.2  Official Video  @badshahlive @SamayRainaOfficial.mp3"
+import ii7 from "./5eQu6MFGoG8-HD.jpg"
+
+import is8 from "./PAYAL SONG (Official Video)_ YO YO HONEY SINGH  NORA FATEHI  PARADOX  GLORY  BHUSHAN KUMAR.mp3"
+import ii8 from "./a-PAcmi5Kas-HD.jpg"
+
 
 export const assets = {
     bell_icon,
@@ -99,13 +120,12 @@ export const albumsData = [
         desc: "Your weekly update of the most played tracks",
         bgColor: "#2a4365",
         songs: [
-
             {
                 id: Math.random(),
                 name: "Alex Warren - Ordinary",
                 image: imgg1,
                 file: song4,
-                desc: "Another global hit",
+                desc: "Global Hits",
                 duration: "3:07"
             },
             {
@@ -113,7 +133,7 @@ export const albumsData = [
                 name: "Anxiety",
                 image: gi1,
                 file: gs1,
-                desc: "Another global hit",
+                desc: "Global Hits",
                 duration: "4:09"
             },
             {
@@ -121,7 +141,7 @@ export const albumsData = [
                 name: "Die With a smile",
                 image: gi2,
                 file: gs2,
-                desc: "Another global hit",
+                desc: "Global Hits",
                 duration: "4:12"
             },
             {
@@ -129,7 +149,7 @@ export const albumsData = [
                 name: "Birds of a feather",
                 image: gi3,
                 file: gs3,
-                desc: "Another global hit",
+                desc: "Global Hits",
                 duration: "3:50"
             },
             {
@@ -137,7 +157,7 @@ export const albumsData = [
                 name: "Espresso",
                 image: gi4,
                 file: gs4,
-                desc: "Another global hit",
+                desc: "Global Hits",
                 duration: "2:55"
             },
             {
@@ -145,7 +165,7 @@ export const albumsData = [
                 name: "Benson Boone - Beautiful Things",
                 image: gi5,
                 file: gs5,
-                desc: "Another global hit",
+                desc: "Global Hits",
                 duration: "3:12"
             },
             {
@@ -153,7 +173,287 @@ export const albumsData = [
                 name: "Not Like Us",
                 image: gi6,
                 file: gs6,
-                desc: "Another global hit",
+                desc: "Global Hits",
+                duration: "4:33"
+            },
+            {
+                id: Math.random(),
+                name: "Alex Warren - Ordinary",
+                image: imgg1,
+                file: song4,
+                desc: "Global Hits",
+                duration: "3:07"
+            },
+            {
+                id: Math.random(),
+                name: "Anxiety",
+                image: gi1,
+                file: gs1,
+                desc: "Global Hits",
+                duration: "4:09"
+            },
+            {
+                id: Math.random(),
+                name: "Die With a smile",
+                image: gi2,
+                file: gs2,
+                desc: "Global Hits",
+                duration: "4:12"
+            },
+            {
+                id: Math.random(),
+                name: "Birds of a feather",
+                image: gi3,
+                file: gs3,
+                desc: "Global Hits",
+                duration: "3:50"
+            },
+            {
+                id: Math.random(),
+                name: "Espresso",
+                image: gi4,
+                file: gs4,
+                desc: "Global Hits",
+                duration: "2:55"
+            },
+            {
+                id: Math.random(),
+                name: "Benson Boone - Beautiful Things",
+                image: gi5,
+                file: gs5,
+                desc: "Global Hits",
+                duration: "3:12"
+            },
+            {
+                id: Math.random(),
+                name: "Not Like Us",
+                image: gi6,
+                file: gs6,
+                desc: "Global Hits",
+                duration: "4:33"
+            },
+            {
+                id: Math.random(),
+                name: "Alex Warren - Ordinary",
+                image: imgg1,
+                file: song4,
+                desc: "Global Hits",
+                duration: "3:07"
+            },
+            {
+                id: Math.random(),
+                name: "Anxiety",
+                image: gi1,
+                file: gs1,
+                desc: "Global Hits",
+                duration: "4:09"
+            },
+            {
+                id: Math.random(),
+                name: "Die With a smile",
+                image: gi2,
+                file: gs2,
+                desc: "Global Hits",
+                duration: "4:12"
+            },
+            {
+                id: Math.random(),
+                name: "Birds of a feather",
+                image: gi3,
+                file: gs3,
+                desc: "Global Hits",
+                duration: "3:50"
+            },
+            {
+                id: Math.random(),
+                name: "Espresso",
+                image: gi4,
+                file: gs4,
+                desc: "Global Hits",
+                duration: "2:55"
+            },
+            {
+                id: Math.random(),
+                name: "Benson Boone - Beautiful Things",
+                image: gi5,
+                file: gs5,
+                desc: "Global Hits",
+                duration: "3:12"
+            },
+            {
+                id: Math.random(),
+                name: "Not Like Us",
+                image: gi6,
+                file: gs6,
+                desc: "Global Hits",
+                duration: "4:33"
+            },
+            {
+                id: Math.random(),
+                name: "Alex Warren - Ordinary",
+                image: imgg1,
+                file: song4,
+                desc: "Global Hits",
+                duration: "3:07"
+            },
+            {
+                id: Math.random(),
+                name: "Anxiety",
+                image: gi1,
+                file: gs1,
+                desc: "Global Hits",
+                duration: "4:09"
+            },
+            {
+                id: Math.random(),
+                name: "Die With a smile",
+                image: gi2,
+                file: gs2,
+                desc: "Global Hits",
+                duration: "4:12"
+            },
+            {
+                id: Math.random(),
+                name: "Birds of a feather",
+                image: gi3,
+                file: gs3,
+                desc: "Global Hits",
+                duration: "3:50"
+            },
+            {
+                id: Math.random(),
+                name: "Espresso",
+                image: gi4,
+                file: gs4,
+                desc: "Global Hits",
+                duration: "2:55"
+            },
+            {
+                id: Math.random(),
+                name: "Benson Boone - Beautiful Things",
+                image: gi5,
+                file: gs5,
+                desc: "Global Hits",
+                duration: "3:12"
+            },
+            {
+                id: Math.random(),
+                name: "Not Like Us",
+                image: gi6,
+                file: gs6,
+                desc: "Global Hits",
+                duration: "4:33"
+            },
+            {
+                id: Math.random(),
+                name: "Alex Warren - Ordinary",
+                image: imgg1,
+                file: song4,
+                desc: "Global Hits",
+                duration: "3:07"
+            },
+            {
+                id: Math.random(),
+                name: "Anxiety",
+                image: gi1,
+                file: gs1,
+                desc: "Global Hits",
+                duration: "4:09"
+            },
+            {
+                id: Math.random(),
+                name: "Die With a smile",
+                image: gi2,
+                file: gs2,
+                desc: "Global Hits",
+                duration: "4:12"
+            },
+            {
+                id: Math.random(),
+                name: "Birds of a feather",
+                image: gi3,
+                file: gs3,
+                desc: "Global Hits",
+                duration: "3:50"
+            },
+            {
+                id: Math.random(),
+                name: "Espresso",
+                image: gi4,
+                file: gs4,
+                desc: "Global Hits",
+                duration: "2:55"
+            },
+            {
+                id: Math.random(),
+                name: "Benson Boone - Beautiful Things",
+                image: gi5,
+                file: gs5,
+                desc: "Global Hits",
+                duration: "3:12"
+            },
+            {
+                id: Math.random(),
+                name: "Not Like Us",
+                image: gi6,
+                file: gs6,
+                desc: "Global Hits",
+                duration: "4:33"
+            },
+            {
+                id: Math.random(),
+                name: "Alex Warren - Ordinary",
+                image: imgg1,
+                file: song4,
+                desc: "Global Hits",
+                duration: "3:07"
+            },
+            {
+                id: Math.random(),
+                name: "Anxiety",
+                image: gi1,
+                file: gs1,
+                desc: "Global Hits",
+                duration: "4:09"
+            },
+            {
+                id: Math.random(),
+                name: "Die With a smile",
+                image: gi2,
+                file: gs2,
+                desc: "Global Hits",
+                duration: "4:12"
+            },
+            {
+                id: Math.random(),
+                name: "Birds of a feather",
+                image: gi3,
+                file: gs3,
+                desc: "Global Hits",
+                duration: "3:50"
+            },
+            {
+                id: Math.random(),
+                name: "Espresso",
+                image: gi4,
+                file: gs4,
+                desc: "Global Hits",
+                duration: "2:55"
+            },
+            {
+                id: Math.random(),
+                name: "Benson Boone - Beautiful Things",
+                image: gi5,
+                file: gs5,
+                desc: "Global Hits",
+                duration: "3:12"
+            },
+            {
+                id: Math.random(),
+                name: "Not Like Us",
+                image: gi6,
+                file: gs6,
+                desc: "Global Hits",
                 duration: "4:33"
             }
         ]
@@ -167,26 +467,346 @@ export const albumsData = [
         songs: [
             {
                 id: Math.random(),
-                name: "Bollywood Hit 1",
-                image: img3,
-                file: song3,
+                name: "Ritviz - Jeet",
+                image: ii1,
+                file: is1,
                 desc: "Top Indian track",
-                duration: "2:32"
+                duration: "3:14"
             },
             {
                 id: Math.random(),
-                name: "Bollywood Hit 2",
-                image: img4,
-                file: song1,
+                name: "GOAT - King",
+                image: ii2,
+                file: is2,
                 desc: "Another Indian hit",
-                duration: "2:50"
+                duration: "4:02"
+            },
+            {
+                id: Math.random(),
+                name: "Millionaire - Honey Singh",
+                image: ii3,
+                file: is3,
+                desc: "Another Indian hit",
+                duration: "3:29"
+            },
+            {
+                id: Math.random(),
+                name: "Pyaar - Naam Sujal",
+                image: ii4,
+                file: is4,
+                desc: "Another Indian hit",
+                duration: "3:54"
+            },
+            {
+                id: Math.random(),
+                name: "Payal - Honey Singh",
+                image: ii8,
+                file: is8,
+                desc: "Another Indian hit",
+                duration: "3:51"
+            },
+            {
+                id: Math.random(),
+                name: "Hola Amigo - Kr$na",
+                image: ii6,
+                file: is6,
+                desc: "Another Indian hit",
+                duration: "4:03"
+            },
+            {
+                id: Math.random(),
+                name: "Baawe - Raftaar",
+                image: ii7,
+                file: is7,
+                desc: "Another Indian hit",
+                duration: "3:03"
+            },
+            {
+                id: Math.random(),
+                name: "Ritviz - Jeet",
+                image: ii1,
+                file: is1,
+                desc: "Top Indian track",
+                duration: "3:14"
+            },
+            {
+                id: Math.random(),
+                name: "GOAT - King",
+                image: ii2,
+                file: is2,
+                desc: "Another Indian hit",
+                duration: "4:02"
+            },
+            {
+                id: Math.random(),
+                name: "Millionaire - Honey Singh",
+                image: ii3,
+                file: is3,
+                desc: "Another Indian hit",
+                duration: "3:29"
+            },
+            {
+                id: Math.random(),
+                name: "Pyaar - Naam Sujal",
+                image: ii4,
+                file: is4,
+                desc: "Another Indian hit",
+                duration: "3:54"
+            },
+            {
+                id: Math.random(),
+                name: "Payal - Honey Singh",
+                image: ii8,
+                file: is8,
+                desc: "Another Indian hit",
+                duration: "3:51"
+            },
+            {
+                id: Math.random(),
+                name: "Hola Amigo - Kr$na",
+                image: ii6,
+                file: is6,
+                desc: "Another Indian hit",
+                duration: "4:03"
+            },
+            {
+                id: Math.random(),
+                name: "Baawe - Raftaar",
+                image: ii7,
+                file: is7,
+                desc: "Another Indian hit",
+                duration: "3:03"
+            },
+            {
+                id: Math.random(),
+                name: "Ritviz - Jeet",
+                image: ii1,
+                file: is1,
+                desc: "Top Indian track",
+                duration: "3:14"
+            },
+            {
+                id: Math.random(),
+                name: "GOAT - King",
+                image: ii2,
+                file: is2,
+                desc: "Another Indian hit",
+                duration: "4:02"
+            },
+            {
+                id: Math.random(),
+                name: "Millionaire - Honey Singh",
+                image: ii3,
+                file: is3,
+                desc: "Another Indian hit",
+                duration: "3:29"
+            },
+            {
+                id: Math.random(),
+                name: "Pyaar - Naam Sujal",
+                image: ii4,
+                file: is4,
+                desc: "Another Indian hit",
+                duration: "3:54"
+            },
+            {
+                id: Math.random(),
+                name: "Payal - Honey Singh",
+                image: ii8,
+                file: is8,
+                desc: "Another Indian hit",
+                duration: "3:51"
+            },
+            {
+                id: Math.random(),
+                name: "Hola Amigo - Kr$na",
+                image: ii6,
+                file: is6,
+                desc: "Another Indian hit",
+                duration: "4:03"
+            },
+            {
+                id: Math.random(),
+                name: "Baawe - Raftaar",
+                image: ii7,
+                file: is7,
+                desc: "Another Indian hit",
+                duration: "3:03"
+            },
+            {
+                id: Math.random(),
+                name: "Ritviz - Jeet",
+                image: ii1,
+                file: is1,
+                desc: "Top Indian track",
+                duration: "3:14"
+            },
+            {
+                id: Math.random(),
+                name: "GOAT - King",
+                image: ii2,
+                file: is2,
+                desc: "Another Indian hit",
+                duration: "4:02"
+            },
+            {
+                id: Math.random(),
+                name: "Millionaire - Honey Singh",
+                image: ii3,
+                file: is3,
+                desc: "Another Indian hit",
+                duration: "3:29"
+            },
+            {
+                id: Math.random(),
+                name: "Pyaar - Naam Sujal",
+                image: ii4,
+                file: is4,
+                desc: "Another Indian hit",
+                duration: "3:54"
+            },
+            {
+                id: Math.random(),
+                name: "Payal - Honey Singh",
+                image: ii8,
+                file: is8,
+                desc: "Another Indian hit",
+                duration: "3:51"
+            },
+            {
+                id: Math.random(),
+                name: "Hola Amigo - Kr$na",
+                image: ii6,
+                file: is6,
+                desc: "Another Indian hit",
+                duration: "4:03"
+            },
+            {
+                id: Math.random(),
+                name: "Baawe - Raftaar",
+                image: ii7,
+                file: is7,
+                desc: "Another Indian hit",
+                duration: "3:03"
+            },
+            {
+                id: Math.random(),
+                name: "Ritviz - Jeet",
+                image: ii1,
+                file: is1,
+                desc: "Top Indian track",
+                duration: "3:14"
+            },
+            {
+                id: Math.random(),
+                name: "GOAT - King",
+                image: ii2,
+                file: is2,
+                desc: "Another Indian hit",
+                duration: "4:02"
+            },
+            {
+                id: Math.random(),
+                name: "Millionaire - Honey Singh",
+                image: ii3,
+                file: is3,
+                desc: "Another Indian hit",
+                duration: "3:29"
+            },
+            {
+                id: Math.random(),
+                name: "Pyaar - Naam Sujal",
+                image: ii4,
+                file: is4,
+                desc: "Another Indian hit",
+                duration: "3:54"
+            },
+            {
+                id: Math.random(),
+                name: "Payal - Honey Singh",
+                image: ii8,
+                file: is8,
+                desc: "Another Indian hit",
+                duration: "3:51"
+            },
+            {
+                id: Math.random(),
+                name: "Hola Amigo - Kr$na",
+                image: ii6,
+                file: is6,
+                desc: "Another Indian hit",
+                duration: "4:03"
+            },
+            {
+                id: Math.random(),
+                name: "Baawe - Raftaar",
+                image: ii7,
+                file: is7,
+                desc: "Another Indian hit",
+                duration: "3:03"
+            },
+            {
+                id: Math.random(),
+                name: "Ritviz - Jeet",
+                image: ii1,
+                file: is1,
+                desc: "Top Indian track",
+                duration: "3:14"
+            },
+            {
+                id: Math.random(),
+                name: "GOAT - King",
+                image: ii2,
+                file: is2,
+                desc: "Another Indian hit",
+                duration: "4:02"
+            },
+            {
+                id: Math.random(),
+                name: "Millionaire - Honey Singh",
+                image: ii3,
+                file: is3,
+                desc: "Another Indian hit",
+                duration: "3:29"
+            },
+            {
+                id: Math.random(),
+                name: "Pyaar - Naam Sujal",
+                image: ii4,
+                file: is4,
+                desc: "Another Indian hit",
+                duration: "3:54"
+            },
+            {
+                id: Math.random(),
+                name: "Payal - Honey Singh",
+                image: ii8,
+                file: is8,
+                desc: "Another Indian hit",
+                duration: "3:51"
+            },
+            {
+                id: Math.random(),
+                name: "Hola Amigo - Kr$na",
+                image: ii6,
+                file: is6,
+                desc: "Another Indian hit",
+                duration: "4:03"
+            },
+            {
+                id: Math.random(),
+                name: "Baawe - Raftaar",
+                image: ii7,
+                file: is7,
+                desc: "Another Indian hit",
+                duration: "3:03"
             }
         ]
     }
 ]
 
 export const topHitsData = [
-
+    
     {
         id: Math.random(),
         name: "Alex Warren - Ordinary",
